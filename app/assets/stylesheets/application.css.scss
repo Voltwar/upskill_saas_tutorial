@@ -50,6 +50,18 @@ font-family: 'Open Sans', sans-serif;
         opacity: 0.75;
     }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+         background-color: #8f94fb;
+    }
+}
+
 // home pgae styles
 .home-callout {
     color: white;
